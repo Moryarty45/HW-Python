@@ -1,23 +1,14 @@
-import pb_find as f
-import pb_add as a
-import phonebook as pb
-import gui as g
+import functions.main_func as generalf
+import functions.txt_func as txtf
+import functions.csv_func as csvf
 
 def start():
-    pb_temp = pb.read_pb_base()
     while True:
-        match g.get_operation():
-            case '+':
-                pb.add_tel_number(a.new_number(a.new_id(pb_temp), 
-                                            g.get_lname(), 
-                                            g.get_fname(), 
-                                            g.get_phone_num()))
-                print('Запись успешно добавлена!')
-            case '-':
-                pb.delete_tel_number(g.get_id(), pb_temp)
-                print('Запись успешно удалена!')
-            case '=':
-                f.find(g.get_lname(), pb_temp)
+        match generalf.choose_type_db():
+            case '1':
+                txtf.type_txt()
+            case '2':
+                csvf.type_csv()
             case '0':
                 print('До свидания!')
                 break

@@ -3,5 +3,11 @@ HW7/__pycache__/gui.cpython-310.pyc
 HW7/__pycache__/pb_add.cpython-310.pyc
 HW7/__pycache__/pb_find.cpython-310.pyc
 HW7/__pycache__/phonebook.cpython-310.pyc
+HW7/__pycache__/logger.cpython-310.pyc
 HW9-10/tg_bot/__pycache__/functions.cpython-310.pyc
 HW9-10/tg_bot/__pycache__/commands.cpython-310.pyc
+HW7/db_type/__pycache__/db_csv.cpython-310.pyc
+HW7/db_type/__pycache__/db_txt.cpython-310.pyc
+HW7/functions/__pycache__/csv_func.cpython-310.pyc
+HW7/functions/__pycache__/txt_func.cpython-310.pyc
+HW7/functions/__pycache__/main_func.cpython-310.pyc

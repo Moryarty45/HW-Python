@@ -8,10 +8,10 @@ def get_lname():
     return input('Фамилия = ')
 
 def get_phone_num():
-    return input('Номер = ')
+    return input('Номер телефона = ')
 
 def get_id():    
     return input('id контакта = ')
 
 def get_operation():
-    return input('Введите команду ("+" - добавить номер, "-" - удалить номер, "=" - найти запись, "0" - выйти) = ')
+    return input('Введите команду ("+" - добавить номер, "-" - удалить номер, "=" - найти запись, "?" - вся книга, "0" - выйти) = ')
